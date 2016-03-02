@@ -10,10 +10,14 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var drop: DropView!
+    @IBOutlet var text: NSTextView!
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        drop.text = text
+        drop.registerForDraggedTypes([kUTTypeUTF8PlainText as String,"application/x-avid.entity+json"])
+        
     }
 
     override var representedObject: AnyObject? {

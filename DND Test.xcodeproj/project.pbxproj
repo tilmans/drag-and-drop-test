@@ -13,6 +13,7 @@
 		71DE25EB1C77490D008E294B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DE25E91C77490D008E294B /* Main.storyboard */; };
 		71DE25F61C77490D008E294B /* DND_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DE25F51C77490D008E294B /* DND_TestTests.swift */; };
 		71DE26011C77490D008E294B /* DND_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DE26001C77490D008E294B /* DND_TestUITests.swift */; };
+		71DE260F1C7752FB008E294B /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DE260E1C7752FB008E294B /* DropView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		71DE25FC1C77490D008E294B /* DND TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DND TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DE26001C77490D008E294B /* DND_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DND_TestUITests.swift; sourceTree = "<group>"; };
 		71DE26021C77490D008E294B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DE260E1C7752FB008E294B /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				71DE25E71C77490D008E294B /* Assets.xcassets */,
 				71DE25E91C77490D008E294B /* Main.storyboard */,
 				71DE25EC1C77490D008E294B /* Info.plist */,
+				71DE260E1C7752FB008E294B /* DropView.swift */,
 			);
 			path = "DND Test";
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				71DE25E61C77490D008E294B /* ViewController.swift in Sources */,
 				71DE25E41C77490D008E294B /* AppDelegate.swift in Sources */,
+				71DE260F1C7752FB008E294B /* DropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +479,7 @@
 				71DE26071C77490D008E294B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DE26081C77490D008E294B /* Build configuration list for PBXNativeTarget "DND TestTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				71DE260A1C77490D008E294B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DE260B1C77490D008E294B /* Build configuration list for PBXNativeTarget "DND TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				71DE260D1C77490D008E294B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
